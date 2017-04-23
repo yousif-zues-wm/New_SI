@@ -4,10 +4,10 @@
   'use strict';
 
   angular
-    .module('app')
+    .module('frontEnd', ['auth0.lock', 'angular-jwt', 'ui.router'])
     .service('authService', authService);
 
-  function authService(lock, authManager) {
+  function authService(lock, authManager, $log) {
 
     function login() {
       lock.show();
@@ -22,7 +22,7 @@
       });
 
       lock.on('authorization_error', function (err) {
-        console.log(err);
+        $log.log(err);
       });
     }
 

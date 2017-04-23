@@ -5,9 +5,8 @@
     .module('frontEnd')
     .controller('MusicController', MusicController);
 
-
-  function MusicController($http, $log) {
-      var vm = this;
+  function MusicController($log) {
+      $log.log('Hello Music')
       // vm.getPlaylistsOnLoad = function(){
       // }
   }
