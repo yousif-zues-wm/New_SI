@@ -8,7 +8,11 @@
     "angular-toastr": "~1.5.0",
     "moment": "~2.10.6",
     "animate.css": "~3.4.0",
-    "angular": "~1.5.3"
+    "angular": "~1.5.3",
+    "auth0-lock": "^10.14.0",
+    "auth0.js": "^8.5.0",
+    "angular-lock": "^2.0.2",
+    "angular-jwt": "^0.1.9"
   },
   "devDependencies": {
     "angular-mocks": "~1.5.3"

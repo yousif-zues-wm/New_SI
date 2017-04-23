@@ -8,17 +8,13 @@
 
   function MusicController($http, $log) {
       var vm = this;
-
-      vm.getPlaylistsOnLoad = function(){
-
-      }
+      // vm.getPlaylistsOnLoad = function(){
+      // }
   }
 
-  function LoginController(authService) {
-
-    var vm = this;
-
-    vm.authService = authService;
-
-  }
+  // function LoginController(authService) {
+  //   var vm = this;
+  //   vm.authService = authService;
+  //
+  // }
 })();

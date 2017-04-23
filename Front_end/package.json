@@ -1,7 +1,11 @@
 {
   "name": "frontEnd",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "angular-jwt": "^0.1.9",
+    "angular-lock": "^2.0.2",
+    "auth0-js": "^8.5.0"
+  },
   "scripts": {
     "test": "gulp test"
   },

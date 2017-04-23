@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('frontEnd')
+  .module('frontEnd', ['auth0.lock', 'angular-jwt', 'ui.router'])
     .config(routerConfig);
 
   /** @ngInject */
@@ -22,7 +22,7 @@
       // })
       .state('home', {
         url: '/',
-        templateUrl: 'app/music/music.html',
+        templateUrl: 'app/music/Music.Template.html',
         controller: 'MusicController',
         controllerAs: 'music'
       });
