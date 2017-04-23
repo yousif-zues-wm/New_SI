@@ -20,5 +20,5 @@ module.exports = {
   // models: {
   //   connection: 'someMongodbServer'
   // }
-
+  dbUrl: 'mongodb://Admin:aRUTE9YbNYsyENukyKw5@ds157187.mlab.com:57187/turnipgalley'
 };

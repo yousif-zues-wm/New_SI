@@ -9,8 +9,16 @@
   function MusicController($http, $log) {
       var vm = this;
 
-      vm.test = function(){
-        
+      vm.getPlaylistsOnLoad = function(){
+
       }
+  }
+
+  function LoginController(authService) {
+
+    var vm = this;
+
+    vm.authService = authService;
+
   }
 })();

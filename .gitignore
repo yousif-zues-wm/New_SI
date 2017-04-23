@@ -1,2 +1,4 @@
 /Back_end/node_modules
 /Front_end/node_modules
+node_modules/
+bower_components/

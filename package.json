@@ -5,6 +5,9 @@
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
+    "angular-jwt": "^0.1.9",
+    "angular-lock": "^2.0.2",
+    "auth0-js": "^8.5.0",
     "ejs": "2.3.4",
     "grunt": "1.0.1",
     "grunt-contrib-clean": "1.0.0",
@@ -24,6 +27,7 @@
     "sails-disk": "~0.10.9"
   },
   "scripts": {
+    "install-all": "concurrently \"cd ./Front_end && npm i\" \"cd ./Front_end && bower install\" \"cd ./Back_end && npm i\"",
     "start": "concurrently \"cd ./Back_End && sails lift\" \"cd Front_end/ && gulp serve\""
   },
   "repository": {
